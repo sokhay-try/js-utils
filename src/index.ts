@@ -1,7 +1,15 @@
-import { isBoolean } from './type/isBoolean'
+// all validation
+import { allType } from "./type"
+import { allValue } from "./value"
 
-const validator = {
-    isBoolean
+// all utils
+import { allUtils } from "./utils"
+
+
+export const validator = {
+    ...allType,
+    ...allValue
 }
-
-export default validator
+export const utils = {
+    ...allUtils
+}

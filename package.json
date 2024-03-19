@@ -1,6 +1,4 @@
 {
-  "name": "@sokhay/js-utils",
-  "version": "1.0.0",
   "scripts": {
     "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
   },
