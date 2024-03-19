@@ -1,0 +1,20 @@
+{
+  "name": "@sokhay/js-utils",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sokhay-try/js-utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sokhay-try/js-utils/issues"
+  },
+  "homepage": "https://github.com/sokhay-try/js-utils#readme",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
