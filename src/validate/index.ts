@@ -6,6 +6,7 @@ import { isNumeric } from "./isNumeric";
 import { isRequired } from "./isRequired";
 import { isStringExceedMaxLength } from "./isStringExceedMaxLength";
 import { isStringLengthBetween } from "./isStringLengthBetween";
+import { isStrongPassword } from "./isStrongPassword";
 
 export const allValidate = {
     isNumeric,
@@ -15,5 +16,6 @@ export const allValidate = {
     isByteLength,
     isRequired,
     isStringExceedMaxLength,
-    isStringLengthBetween
+    isStringLengthBetween,
+    isStrongPassword
 }
