@@ -8,6 +8,7 @@ import { isContainsLowercase } from "./isContainsLowercase";
 import { isContainsSpecialCharacter } from "./isContainsSpecialCharacter";
 import { isContainsUppercase } from "./isContainsUppercase";
 import { merge } from "./merge";
+import { passwordValidator } from "./passwordValidator";
 
 export const allUtils = {
     merge,
@@ -19,5 +20,6 @@ export const allUtils = {
     countDigits,
     countLowercase,
     countSpecialChars,
-    countUppercase
+    countUppercase,
+    passwordValidator
 }
