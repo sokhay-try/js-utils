@@ -3,6 +3,7 @@ import { countDigits } from "./countDigits";
 import { countLowercase } from "./countLowercase";
 import { countSpecialChars } from "./countSpecialChars";
 import { countUppercase } from "./countUppercase";
+import { allFormat } from "./format";
 import { isContainsDigit } from "./isContainsDigit";
 import { isContainsLowercase } from "./isContainsLowercase";
 import { isContainsSpecialCharacter } from "./isContainsSpecialCharacter";
@@ -21,5 +22,6 @@ export const allUtils = {
     countLowercase,
     countSpecialChars,
     countUppercase,
-    passwordValidator
+    passwordValidator,
+    ...allFormat
 }
