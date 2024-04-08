@@ -17,7 +17,7 @@ pnpm install @sokhay/js-utils
 import { utils, validator } from "@sokhay/js-utils";
 ```
 
-<p><b>Version:</b> 1.0.2</p>
+<p><b>Version:</b> 1.0.3</p>
 
 <h2>Function</h2>
 <table>
@@ -111,6 +111,120 @@ import { utils, validator } from "@sokhay/js-utils";
                 <a href="#">formatPhoneNumber</a>
             </td>
             <td>Formats a phone number according to a specified format.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">compareDates</a>
+            </td>
+            <td>Compare two dates.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isArray</a>
+            </td>
+            <td>Returns true if the value is an array.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isBoolean</a>
+            </td>
+            <td>Returns true if the value is a boolean.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isDate</a>
+            </td>
+            <td>Returns true if the value is an instance of Date.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isFunction</a>
+            </td>
+            <td>Returns true if the value is a function.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isNumber</a>
+            </td>
+            <td>Returns true if the value is a number.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isObject</a>
+            </td>
+            <td>Returns true if the value is an object.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isString</a>
+            </td>
+            <td>Returns true if the value is a string.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isSymbol</a>
+            </td>
+            <td>Returns true if the value is a symbol.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">type</a>
+            </td>
+            <td>ReturnsReturns a string representation of the type which also differentiates between 'object', 'array', 'date'.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isByteLength</a>
+            </td>
+            <td>Checks if the byte length of a string falls within a specified range.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isEmail</a>
+            </td>
+            <td>Takes a string (str) as input and returns a boolean value indicating whether the input string represents a valid email address or not.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isNumeric</a>
+            </td>
+            <td>Return true if a value is numeric.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isRequired</a>
+            </td>
+            <td>Return true if a value is null, undefined, or an empty string.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isStringExceedMaxLength</a>
+            </td>
+            <td>Return true if a string's length exceeds the maximum length.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isStringLengthBetween</a>
+            </td>
+            <td>Return true if the length of a string falls within a specified range.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isStrongPassword</a>
+            </td>
+            <td>Return true if the password is match the rules.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isEmpty</a>
+            </td>
+            <td>Return true if the string is empty.</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">isNull</a>
+            </td>
+            <td>Return true if the value is null.</td>
         </tr>
     </tbody>
  </table>

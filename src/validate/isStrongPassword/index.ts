@@ -99,7 +99,7 @@ function scorePassword(analysis, scoringOptions) {
   return points;
 }
 
-export function isStrongPassword(str: string, options: null | IDefaultPasswordOption = null): boolean | number {
+export function isStrongPassword(str: string, options: null | IDefaultPasswordOption = null): boolean {
   assertString(str);
   const analysis = analyzePassword(str);
   options = merge(options || {}, defaultOptions);
